@@ -9,4 +9,5 @@ def open_camera():
         if cv2.waitKey(1) & 0xFF == ord('q'):
             break
     cv2.destroyAllWindows()
-    
+
+open_camera()
