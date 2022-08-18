@@ -23,7 +23,7 @@ def draw_bounding_boxes(contours, image):
 
 def rust_detector():
     
-    vid = cv2.VideoCapture(0)
+    vid = cv2.VideoCapture('vids/REC00032.AVI')
     
     while True:
         

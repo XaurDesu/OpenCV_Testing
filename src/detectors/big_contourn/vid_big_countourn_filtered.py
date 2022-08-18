@@ -3,7 +3,7 @@ import numpy as np
 
 def detector():
     
-    vid = cv2.VideoCapture('vids/GOPR6012_Trim2.mp4')
+    vid = cv2.VideoCapture('vids/REC00032.AVI')
 
     while True:
         conts = 0
